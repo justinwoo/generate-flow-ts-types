@@ -12,6 +12,10 @@ letters :: [String]
 letters =
   [ "A" , "B" , "C" , "D" , "E" , "F" , "G"]
 
+_params :: [String] -> [String]
+_params =
+  fmap (++ ": Object")
+
 _args :: [String] -> [String]
 _args =
   fmap argify
@@ -27,7 +31,7 @@ printType xs =
     args
     result
   where
-    params :: String = intercalate ", " xs
+    params :: String = intercalate ", " $ _params xs
     args :: String = intercalate ", " $ _args xs
     result :: String = intercalate " & " xs
 
