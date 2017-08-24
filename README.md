@@ -1,5 +1,7 @@
 # generate types
 
+## please don't use or even look at this, jesus christ
+
 scripts for generating some flow/ts types in haskell
 
 looks like this when run:
