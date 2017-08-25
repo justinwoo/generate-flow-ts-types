@@ -1,6 +1,6 @@
 # generate types
 
-## please don't use or even look at this, jesus christ
+## these are just disappointing string appending scripts. if you want to see something actually useful/horrible please see https://github.com/justinwoo/purescript-bundaegi!!!
 
 scripts for generating some flow/ts types in haskell
 
